@@ -20,10 +20,11 @@ public class HelloWorldController {
 		//palavra Hello world concatenada com o nome.
 		//Exmeplo de resposta: Hello world felipe !
 
-		String nome1 = "Thiago";
-		String msg = "Hello world !";
+		//String nome1 = "Felipe ";
+		//String msg = "Hello world";
+		//String msg2 = "!";
 		
-		return ResponseEntity.ok(msg + nome1);
+		return ResponseEntity.ok("Hello World" + " "+ nome + " !");
 	}
 	
 }
